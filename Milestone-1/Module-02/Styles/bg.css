@@ -1,9 +1,9 @@
-.heading{
-    background: #540fbc00;
-    color: #18073f;
-    background-image: url('/PHWeb-13/Milestone-1/Module-01/nature.jpg');
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;
+.heading {
+  background: #540fbc00;
+  color: #18073f;
+  background-image: url("/PH-Web-13th/Milestone-1/Module-01/nature.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
 }
