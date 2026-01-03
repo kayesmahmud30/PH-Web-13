@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300..700&display=swap');
+
+*{
+    font-family: "Fira Code", monospace;
+    font-style: inherit;
+}
+
+.name{
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+    
+}
+
+
+.about{
+    color: brown;
+    font-style: italic;
+}
+
+ul{
+    font-style: unset;
+}

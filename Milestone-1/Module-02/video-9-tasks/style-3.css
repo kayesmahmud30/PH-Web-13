@@ -1,0 +1,25 @@
+*{
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.heading{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 900;
+
+}
+
+.about{
+    color: blue;
+    text-align: center;
+
+}
+
+#container{
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+
+}
