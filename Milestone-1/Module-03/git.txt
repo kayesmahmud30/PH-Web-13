@@ -1,6 +1,11 @@
 git init --- To initialize git in the local file
+
 git add . --- To add all untracked files & folders
-git commit -m "first commit"
-git branch -M main
+
+git commit -m "first commit" --- To commit the changes with a meaning full massage.
+
+git branch -M main --- To switch to the main branch
+
 git remote add origin https://github.com/kayesmahmud30/Tiny-DOM-Projects.git
-git push -u origin main
+
+git push -u origin main --- To push all the code
