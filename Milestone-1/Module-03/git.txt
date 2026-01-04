@@ -1,0 +1,6 @@
+git init --- To initialize git in the local file
+git add . --- To add all untracked files & folders
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kayesmahmud30/Tiny-DOM-Projects.git
+git push -u origin main
