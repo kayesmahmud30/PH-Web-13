@@ -14,12 +14,12 @@ body {
   gap: 40px;
 }
 
-.hero-container button{
-    background-color: aqua;
-    padding: 10px 30px;
-    font-size: 1.25em;
-    border-radius: 10px;
-    cursor: pointer;
+.hero-container button {
+  background-color: aqua;
+  padding: 10px 30px;
+  font-size: 1.25em;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .hero-container img {
@@ -27,4 +27,3 @@ body {
   height: 400px;
   border-radius: 25px;
 }
-
