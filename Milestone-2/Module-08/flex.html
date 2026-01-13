@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResponsiveFlex</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 30px;
+      }
+
+      .box {
+        background-color: teal;
+        padding: 20px;
+        border-radius: 10px;
+        color: #fff;
+      }
+
+      .items {
+        width: 100px;
+        padding: 10px;
+        background-color: tomato;
+      }
+
+      .box-container {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+
+      @media screen and (max-width: 576px) {
+        .container {
+          flex-direction: column;
+        }
+
+        .items {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Let's Explore Flex</h2>
+
+    <div class="container">
+      <div class="box">
+        <h3>box-1</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ut
+          commodi suscipit, quis inventore temporibus magnam aliquid impedit,
+          dignissimos placeat nam asperiores. Assumenda ducimus deserunt, sequi
+          quia necessitatibus repellendus sint laudantium neque tempora dolor
+          odit ex eos veniam numquam placeat quae voluptatum quod vero et odio
+          animi quos repudiandae hic ratione? Fuga debitis voluptatibus eligendi
+          provident odio dignissimos eveniet non.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>box-2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cum
+          laudantium quo vel perspiciatis quidem amet voluptate tempora magni.
+          Sed doloribus quasi distinctio ratione, nemo atque veniam eaque amet
+          hic culpa rem quidem impedit non sequi facilis deserunt voluptates
+          necessitatibus corporis laudantium? Libero similique numquam quis,
+          molestiae odio fugit qui tempora ex itaque soluta exercitationem
+          consectetur quas, aliquid ea nulla?
+        </p>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div class="items">box1</div>
+      <div class="items">box2</div>
+      <div class="items">box3</div>
+      <div class="items">box4</div>
+      <div class="items">box5</div>
+      <div class="items">box6</div>
+      <div class="items">box7</div>
+      <div class="items">box8</div>
+      <div class="items">box9</div>
+      <div class="items">box10</div>
+      <div class="items">box11</div>
+      <div class="items">box12</div>
+      <div class="items">box13</div>
+      <div class="items">box14</div>
+      <div class="items">box15</div>
+      <div class="items">box16</div>
+      <div class="items">box17</div>
+      <div class="items">box18</div>
+      <div class="items">box19</div>
+      <div class="items">box20</div>
+    </div>
+  </body>
+</html>
