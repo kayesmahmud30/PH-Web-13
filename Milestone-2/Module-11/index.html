@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Intro to Tailwind CSS</title>
+  </head>
+  <body>
+    <h1 class="text-7xl border-2 border-red-900">Intro to Tailwind CSS</h1>
+    <h3 class="text-5xl bg-linear-to-bl from-violet-500 to-fuchsia-500">
+      Exploring CSS via utility class
+    </h3>
+    <p class="underline italic">This is exciting</p>
+    <p class="underline italic bg-red-500 text-teal-50">This is exciting</p>
+    <p class="text-center bg-red-50 font-bold">I am exploring Tailwind CSS</p>
+
+    <!-- Sizing.. -->
+
+    <section class="w-1/2 border mx-auto">
+      <h3 class="text-red-600">My Section Title</h3>
+      <h3 class="text-3xl text-center">My Section Title 2</h3>
+      <p class="border-8 border-green-400 px-12 text-blue-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse illo
+        est molestiae doloremque. Saepe eum deleniti quo blanditiis accusamus
+        nihil sapiente? Necessitatibus ipsum aliquid cupiditate amet similique
+        tempora aliquam, eligendi atque ad perferendis nisi aspernatur optio
+        dolore doloribus delectus nulla quas possimus. Ipsa voluptatem illo
+        accusantium sed, voluptate incidunt.
+      </p>
+    </section>
+
+    <!-- Responsive Section -->
+    <section class="bg-red-300 lg:bg-yellow-500 md:bg-green-500">
+      <h3 class="text-3xl">My responsive section</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        assumenda consectetur quasi eligendi eveniet fuga possimus. Quae
+        reiciendis tempore aut. Hic molestiae nihil minima dolore quam ullam
+        exercitationem illo ipsa.
+      </p>
+    </section>
+
+    <!-- Flex Layout -->
+    <section class="lg:flex justify-center">
+      <div class="w-96 h-32 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 1
+      </div>
+      <div class="w-96 h-32 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 2
+      </div>
+      <div class="w-96 h-32 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 3
+      </div>
+      <div class="w-96 h-32 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 4
+      </div>
+    </section>
+
+    <section class="flex justify-around">
+      <div class="w-24 h-24 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 1
+      </div>
+      <div class="w-24 h-24 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 2
+      </div>
+      <div class="w-24 h-24 text-3xl bg-purple-400 border-2 border-red-500">
+        Item 3
+      </div>
+    </section>
+
+    <!-- Grid Section -->
+
+    <section
+      class="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-8 xl:grid-cols-4"
+    >
+      <div class="bg-pink-300 text-2xl">Box 1</div>
+      <div class="bg-pink-300 text-2xl">Box 2</div>
+      <div class="bg-pink-300 text-2xl">Box 3</div>
+      <div class="bg-pink-300 text-2xl xl:row-span-4">Box 4</div>
+      <div class="bg-pink-300 text-2xl lg:col-span-2">Box 5</div>
+      <div class="bg-pink-300 text-2xl">Box 6</div>
+      <div class="bg-pink-300 text-2xl">Box 7</div>
+      <div class="bg-pink-300 text-2xl lg:col-span-3">Box 8</div>
+      <div class="bg-pink-300 text-2xl">Box 10</div>
+      <div class="bg-pink-300 text-2xl">Box 11</div>
+      <div class="bg-pink-300 text-2xl">Box 12</div>
+    </section>
+  </body>
+</html>
