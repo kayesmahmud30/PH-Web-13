@@ -4,10 +4,10 @@ if (number < 10) {
 }
 console.log("Something new is cooking");
 
-const num = 0;
-
 // While Loop.....
-while (num < 5) {
-  console.log("Looping.......");
-}
 
+let num = 0; //Loop variable.....
+while (num < 5) {
+  console.log("Looping.......", num);
+  num++;
+}
