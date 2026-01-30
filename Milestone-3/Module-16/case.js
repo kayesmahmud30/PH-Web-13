@@ -19,5 +19,8 @@ if (subject.toLowerCase() === book.toLocaleLowerCase()) {
 const drink = "water ";
 const liquid = "   water     ";
 
-if (drink === liquid) {
+if (drink.trim() === liquid.trim()) {
+  console.log("Water is life");
+} else {
+  console.log("See water is not drinkable");
 }
