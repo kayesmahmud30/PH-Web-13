@@ -2,6 +2,10 @@ In this Module, we will complete a project by Tailwind CSS.
 
 Project path.....
 
+<<<<<<< HEAD
 1. GitHub Repository Link: https://github.com/kayesmahmud30/Tea-House
+=======
+1. GitHub Repository Link: "https://github.com/kayesmahmud30/Tea-House"
+>>>>>>> dd97cf47f6f7ef30e650c4c75ff55f3b935e667d
 
 2. Local File Path: "D:\Documents\Code Projects\Tea-House"
