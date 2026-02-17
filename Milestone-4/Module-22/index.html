@@ -12,6 +12,24 @@
 
       #food-title {
         color: green;
+        /* margin-left: 20px; */
+        /* background-color: lightgreen; */
+      }
+
+      .bg-red {
+        background-color: red;
+      }
+
+      .bold {
+        font-weight: 100;
+      }
+
+      .big {
+        font-size: 3em;
+      }
+
+      .food .foreign {
+        font-weight: 700;
       }
     </style>
   </head>
@@ -20,8 +38,14 @@
       <h1>This is my header no banner</h1>
     </header>
     <main>
-      <section>
+      <section id="old-dhaka" class="songs">
         <h1>Welcome to my DOM</h1>
+        <p>
+          Lorem ipsum dolor <span>oli goli</span> sit amet consectetur
+          adipisicing elit. <span>Alias</span> Nisi, nihil?
+        </p>
+
+        <h1>Lorem, ipsum. <span>Some text</span></h1>
         <ul>
           <li>Shafayeter</li>
           <li class="foreign">Bonobash</li>
@@ -30,7 +54,8 @@
           <li>Dom de re baba</li>
         </ul>
       </section>
-      <section>
+
+      <section class="food">
         <h1 id="food-title">Foods I love</h1>
         <ul>
           <li>Rice</li>
@@ -40,6 +65,17 @@
           <li class="foreign">Burger</li>
           <li class="foreign">Pizza</li>
           <li class="foreign">Pasta</li>
+        </ul>
+      </section>
+
+      <section id="players-container">
+        <h1>Players</h1>
+        <ul>
+          <li>Messi</li>
+          <li>Pele</li>
+          <li>Ronaldo</li>
+          <li>M. Bappe</li>
+          <!-- <li>Chele</li> -->
         </ul>
       </section>
     </main>
@@ -86,7 +122,57 @@
       for (const element of foreignElements) {
         console.log(element.innerText);
       }
+
+      // query selector all
+      const spanElements = document.querySelectorAll("#old-dhaka p span");
+
+      for (const span of spanElements) {
+        console.log(span.innerText);
+      }
+
+      /*  
+        --------------------------Important-------------------
+
+      1. getAttribute('attribute-name')
+      2. setAttribute('attribute-name', 'attribute-value that we want to set for the attribute')
+
+      3. classList.add()
+      4. classList.remove()
+
+        --------------------------Important-------------------
+       */
+
+      const foodElements = document.getElementById("food-title");
+
+      // foodElements.style.backgroundColor = 'lightblue'
+      foodElements.style.maxWidth = "50%";
+      foodElements.style.margin = "0 auto";
+      foodElements.style.textAlign = "center";
+
+      foodElements.classList.add("bg-red");
+      foodElements.classList.remove("bg-red");
+
+      foodElements.classList.add("big");
+      foodElements.classList.add("bold");
+
+      //----------set attribute-------------
+
+      const classOfFood = foodElements.getAttribute("class");
+      console.log(classOfFood);
+
+      foodElements.setAttribute("title", "Title tooltip by JS");
+
+      //-------------------------------------------------------------
+
+      const players = document.getElementById("players-container");
+
+      console.log(players.innerHTML);
+      console.log(players.innerText); //We can comment thou
+
+      // players.innerHTML = "<li>My random item<li/>";
     </script>
     <script src="./js/hello.js"></script>
   </body>
 </html>
+
+<!-- 3:00 of 22-6 -->
