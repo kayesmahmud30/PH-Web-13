@@ -37,7 +37,7 @@
     <header>
       <h1>This is my header no banner</h1>
     </header>
-    <main>
+    <main id="main-container">
       <section id="old-dhaka" class="songs">
         <h1>Welcome to my DOM</h1>
         <p>
@@ -70,46 +70,46 @@
 
       <section id="players-container">
         <h1>Players</h1>
-        <ul>
+        <ul id="players-list">
           <li>Messi</li>
           <li>Pele</li>
           <li>Ronaldo</li>
           <li>M. Bappe</li>
-          <!-- <li>Chele</li> -->
+          <li>Chele</li>
         </ul>
       </section>
     </main>
 
     <script>
-      // console.log("Hello from Javascript!!!");
-      // console.log("Hello bole chole gelo");
-      // console.log("Document Object Model");
+      //console.log("Hello from Javascript!!!");
+      //console.log("Hello bole chole gelo");
+      //console.log("Document Object Model");
 
       const student = {
         name: "Abul Mia",
         id: 121,
         study: function (subject) {
-          // console.log("Studying Subject", subject);
+          //console.log("Studying Subject", subject);
         },
       };
 
       // document.getElementsByTagName
 
       const liCollection = document.getElementsByTagName("li");
-      console.log(liCollection);
+      //console.log(liCollection);
       for (const li of liCollection) {
-        // console.log(li.innerText);
+        //console.log(li.innerText);
       }
 
       //All h1 Tags.....
       const allHeadings = document.getElementsByTagName("h1");
       for (const heading of allHeadings) {
-        // console.log(heading.innerText);
+        //console.log(heading.innerText);
       }
 
       //get by ID..
       const foodTitleH1 = document.getElementById("food-title");
-      console.log(foodTitleH1.innerText);
+      //console.log(foodTitleH1.innerText);
       foodTitleH1.innerText = "Food I love to Eat";
 
       const bandElement = document.getElementById("band");
@@ -117,17 +117,17 @@
 
       //Get elements by class name.....
       const foreignElements = document.getElementsByClassName("foreign");
-      console.log(foreignElements);
+      //console.log(foreignElements);
 
       for (const element of foreignElements) {
-        console.log(element.innerText);
+        //console.log(element.innerText);
       }
 
       // query selector all
       const spanElements = document.querySelectorAll("#old-dhaka p span");
 
       for (const span of spanElements) {
-        console.log(span.innerText);
+        //console.log(span.innerText);
       }
 
       /*  
@@ -155,10 +155,10 @@
       foodElements.classList.add("big");
       foodElements.classList.add("bold");
 
-      //----------set attribute-------------
+      //--------------------------set attribute-------------------
 
       const classOfFood = foodElements.getAttribute("class");
-      console.log(classOfFood);
+      //console.log(classOfFood);
 
       foodElements.setAttribute("title", "Title tooltip by JS");
 
@@ -166,13 +166,14 @@
 
       const players = document.getElementById("players-container");
 
-      console.log(players.innerHTML);
-      console.log(players.innerText); //We can comment thou
+      //console.log(players.innerHTML);
+      //console.log(players.innerText); //We can comment thou
 
       // players.innerHTML = "<li>My random item<li/>";
     </script>
     <script src="./js/hello.js"></script>
+    <script src="./js/cssInJS.js"></script>
+    <script src="./js/childParent.js"></script>
+    <script src="./js/append.js"></script>
   </body>
 </html>
-
-<!-- 3:00 of 22-6 -->

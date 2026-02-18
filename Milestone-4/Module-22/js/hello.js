@@ -1,5 +1,5 @@
-console.log("Hello from outside");
-console.log(document);
+// console.log("Hello from outside");
+// console.log(document);
 
 /*      --------------------------Important-------------------
 
@@ -11,3 +11,12 @@ console.log(document);
 
         --------------------------Important-------------------
        */
+
+/*     ------------------------Important-2---------------------
+
+      NodeList, htmlCollection, parentNode, childNodes, createElement....
+
+      1. 
+        
+        
+        */
