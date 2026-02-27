@@ -24,4 +24,14 @@ const {
 const [first, second] = [10, 20];
 console.log(first, second);
 
-// const [height, width] = numbers;
+const [height, width] = numbers;
+
+//---------------------------Skipping value -----------------------
+const numberArr2 = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+const [ten, twenty, thirty, , , , , , ninety] = numberArr2;
+
+console.log(ten);
+console.log(twenty);
+console.log(thirty);
+
+console.log(ninety);

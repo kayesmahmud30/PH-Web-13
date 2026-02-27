@@ -43,3 +43,13 @@ person.salary = 36000;
 
 console.log(person);
 console.log(person2);
+
+//----------------------------------------------------------------
+const numberArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const [one, tow, three, ...rest] = numberArr;
+
+console.log(one);
+console.log(tow);
+console.log(three);
+console.log(rest);
+
