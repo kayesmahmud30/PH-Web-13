@@ -15,7 +15,7 @@ const result = firstSum(num1, num2);
 
 console.log("After the function call:", num1, num2);
 
-// If we pass a Non-primitive data (array, object) as a function's parameter, and if we change the data inside the function, then our main data will replaced into the new data that we edited inside the function. It's called "Pass by Reference"
+// If we pass a Non-primitive data (array, object) as a function's parameter, and if we change the data inside the function, then our main data will be replaced into the new data that we edited inside the function. It's called "Pass by Reference"
 
-// Passing Primitive = Pass by Value
-// Passing Non-Primitive = Pass by Reference
+// Passing Primitive = Pass by Value (main values will not be changed)
+// Passing Non-Primitive = Pass by Reference (main values will be changed)

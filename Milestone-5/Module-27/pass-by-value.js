@@ -13,7 +13,7 @@ const result = multiply(x, y);
 console.log(result);
 console.log("After calling", x, y);
 
-// If we pass a primitive data (array, object) as a function's parameter, and if we change the data inside the function, then our main data will replaced into the new data that we edited inside the function. It's called "Pass by Value"
+// If we pass a primitive data (array, object) as a function's parameter, and if we change the data inside the function, then our main data will not be replaced into the new data that we edited inside the function. It's called "Pass by Value"
 
-// Passing Primitive = Pass by Value
-// Passing Non-Primitive = Pass by Reference
+// Passing Primitive = Pass by Value (main values will not be changed)
+// Passing Non-Primitive = Pass by Reference (main values will be changed)
