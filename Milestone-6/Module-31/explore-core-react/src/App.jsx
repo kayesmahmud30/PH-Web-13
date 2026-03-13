@@ -1,15 +1,52 @@
 import "./App.css";
 import ToDo from "./Todo";
+import Actor from "./Actors";
+import Singer from "./Singers";
+import Library from "./Library";
 
 function App() {
-  const time = 50;
+  // const actors = [
+  //   "Bappa Raj",
+  //   "Omor Sunny",
+  //   "Salman Shah",
+  //   "Jasim",
+  //   "Anwar",
+  //   "Rajjak",
+  // ];
+
+  const singers = [
+    { id: 1, name: "Dr. Mahfuz", age: 68 },
+    { id: 2, name: "Tahsan", age: 45 },
+    { id: 3, name: "Shuvro Deb", age: 57 },
+  ];
+
+  const books = [
+    { id: 1, name: "Physics", price: 250 },
+    { id: 2, name: "Chemistry", price: 350 },
+    { id: 3, name: "Math", price: 255 },
+    { id: 4, name: "Biology", price: 290 },
+  ];
+
+  // const time = 50;
 
   return (
     <>
       <h1>React Core Concepts</h1>
-      <ToDo task="Learn React" isDone={true} time={time}></ToDo>
+
+      <Library books={books}></Library>
+
+      {singers.map((singer) => (
+        <Singer key={singer.id} singer={singer}></Singer>
+      ))}
+
+      {/* 
+      {actors.map((actor) => (
+        <Actor actor={actor}></Actor>
+      ))} */}
+
+      {/* <ToDo task="Learn React" isDone={true} time={time}></ToDo>
       <ToDo task="Revise Js" isDone={false}></ToDo>
-      <ToDo task="Take a shower" isDone={true} time={100}></ToDo>
+      <ToDo task="Take a shower" isDone={true} time=""></ToDo> */}
 
       {/* <Student></Student>
       <Student></Student>
