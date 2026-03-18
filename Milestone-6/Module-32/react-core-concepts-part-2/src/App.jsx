@@ -6,6 +6,9 @@ import Posts from "./Posts";
 import Players from "./Players";
 import "./App.css";
 import { Suspense } from "react";
+import Counter2 from "./Counter2";
+import Toggle from "./Toggle";
+import UserCompany from "./UserCompany";
 
 // const fetchUser = fetch("https://jsonplaceholder.typicode.com/users").then(
 //   (res) => res.json(),
@@ -20,6 +23,12 @@ import { Suspense } from "react";
 //   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
 //   return res.json();
 // };
+
+const userData = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+
+  return res.json();
+};
 
 function App() {
   // const friendsPromise = fetchFriends();
@@ -42,6 +51,14 @@ function App() {
     <>
       <section id="center">
         <h3>Vite + React</h3>
+
+        <Suspense fallback={<h3>User Data loading...</h3>}>
+          <UserCompany userData={userData()}></UserCompany>
+        </Suspense>
+
+        <Counter2></Counter2>
+
+        <Toggle></Toggle>
 
         <Players></Players>
 

@@ -1,0 +1,7 @@
+We need to understand....
+
+1. Event Trigger
+2. State
+3. Data load from API
+4. Loop through to display Data
+5. Why we use "key" prop?

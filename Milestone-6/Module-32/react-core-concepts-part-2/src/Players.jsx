@@ -15,7 +15,7 @@ export default function Players() {
 
       <ol>
         {players.map((player) => (
-          <li>{player.name}</li>
+          <li key={player.id}>{player.name}</li>
         ))}
       </ol>
     </div>
