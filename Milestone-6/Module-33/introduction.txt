@@ -7,6 +7,12 @@ The 6 main and repeatedly used things in ReactJS....
  5. State
  6. Effect
 
+ --------------------------------------------------------------
+ File path of the project....
+
+ Local-Path: D:\Documents\Code Projects\World-on-The-Go
+ GitHub Repo: https://github.com/kayesmahmud30/World-on-The-Go
+
 
 -----------------------------------------------------------------
 "We would accomplish more things if we did not think of them as impossible- Vince Lobard"
