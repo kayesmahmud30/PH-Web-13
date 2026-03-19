@@ -1,0 +1,13 @@
+The 6 main and repeatedly used things in ReactJS....
+
+ 1. JSX
+ 2. Component
+ 3. Props
+ 4. Events
+ 5. State
+ 6. Effect
+
+
+-----------------------------------------------------------------
+"We would accomplish more things if we did not think of them as impossible- Vince Lobard"
+
