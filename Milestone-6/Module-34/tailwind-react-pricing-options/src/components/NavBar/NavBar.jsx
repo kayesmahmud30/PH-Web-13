@@ -36,7 +36,7 @@ const NavBar = () => {
     <Link key={route.id} route={route}></Link>
   ));
   return (
-    <nav className="flex justify-between mx-10">
+    <nav className="flex justify-between mx-10 mt-4">
       <span
         className="flex"
         onClick={() => {
@@ -49,7 +49,13 @@ const NavBar = () => {
           <Menu className="md:hidden"></Menu>
         )}
 
-        <ul className="md:hidden">{links}</ul>
+        <ul
+          className={`md:hidden absolute duration-1000 text-black
+            ${open ? "top-10" : "-top-40"}
+            bg-amber-200`}
+        >
+          {links}
+        </ul>
 
         <h3 className="ml-4">My Navbar</h3>
       </span>
@@ -69,7 +75,7 @@ const NavBar = () => {
                 <li className='mr-10'><a href="/blog">Blog</a></li>
             </ul> */}
 
-      <button>Sign IN</button>
+      <button>Sign In</button>
     </nav>
   );
 };
