@@ -1,0 +1,3 @@
+We have covered the conceptions of the react Milestone. The inside terms of the ReactJS. Engine Inside topics are explained in the module.
+ 
+CSR VS SSR
