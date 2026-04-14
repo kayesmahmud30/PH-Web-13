@@ -1,4 +1,15 @@
 import Link from "next/link";
+import { Roboto, Poppins } from "next/font/google";
+
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const poppins = Poppins({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 const BlogsPage = () => {
   const blogs = [
@@ -41,7 +52,7 @@ const BlogsPage = () => {
   ];
 
   return (
-    <div>
+    <div className={roboto.className}>
       <h2 className="text-3xl font-bold mb-4">Blogs</h2>
 
       {blogs.map((blog) => (
