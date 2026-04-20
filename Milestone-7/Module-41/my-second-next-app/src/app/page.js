@@ -1,5 +1,5 @@
-import Counter from "./components/Counter";
-import Header from "./components/Header";
+import Counter from "../components/Counter";
+import Header from "../components/Header";
 
 export default function Home() {
   console.log("NextJs Server");
