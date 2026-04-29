@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 69.99,
+      "category": "Electronics",
+      "stock": 25,
+      "rating": 4.5,
+      "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+      "image": "https://via.placeholder.com/300?text=Wireless+Headphones"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 18,
+      "rating": 4.3,
+      "description": "Modern smartwatch with fitness tracking, heart rate monitoring, and notifications.",
+      "image": "https://via.placeholder.com/300?text=Smart+Watch"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 30,
+      "rating": 4.2,
+      "description": "Portable Bluetooth speaker with deep bass and waterproof design.",
+      "image": "https://via.placeholder.com/300?text=Bluetooth+Speaker"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Mouse",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 40,
+      "rating": 4.6,
+      "description": "Ergonomic gaming mouse with customizable buttons and RGB lighting.",
+      "image": "https://via.placeholder.com/300?text=Gaming+Mouse"
+    },
+    {
+      "id": 5,
+      "name": "Mechanical Keyboard",
+      "price": 79.99,
+      "category": "Accessories",
+      "stock": 15,
+      "rating": 4.7,
+      "description": "Durable mechanical keyboard with tactile switches and backlit keys.",
+      "image": "https://via.placeholder.com/300?text=Mechanical+Keyboard"
+    }
+  ]
+}
