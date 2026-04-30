@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Headphones",
+      "name": "Wireless Headphones Wire",
       "price": 69.99,
       "category": "Electronics",
       "stock": 25,
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "name": "Smart Watch",
+      "name": "Smart Watch See",
       "price": 89.99,
       "category": "Electronics",
       "stock": 18,
@@ -49,6 +49,63 @@
       "rating": 4.7,
       "description": "Durable mechanical keyboard with tactile switches and backlit keys.",
       "image": "https://via.placeholder.com/300?text=Mechanical+Keyboard"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 18.99,
+      "category": "Self Development",
+      "stock": 25,
+      "rating": 4.8,
+      "publishedYear": 2018,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 12.5,
+      "category": "Fiction",
+      "stock": 40,
+      "rating": 4.6,
+      "publishedYear": 1988,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 32.0,
+      "category": "Programming",
+      "stock": 15,
+      "rating": 4.7,
+      "publishedYear": 2008,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "price": 14.75,
+      "category": "Finance",
+      "stock": 30,
+      "rating": 4.5,
+      "publishedYear": 1997,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt & David Thomas",
+      "price": 28.5,
+      "category": "Programming",
+      "stock": 20,
+      "rating": 4.9,
+      "publishedYear": 1999,
+      "image": "https://via.placeholder.com/150"
     }
   ]
 }
