@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Design Landing Page",
+    "description": "Create the initial UI design for the product landing page.",
+    "status": "In Progress",
+    "priority": "High",
+    "dueDate": "2026-05-05",
+    "assignedTo": "Mahmud",
+    "tags": ["design", "frontend", "ui"],
+    "createdAt": "2026-05-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Setup Authentication",
+    "description": "Implement login and signup using JWT authentication.",
+    "status": "Pending",
+    "priority": "High",
+    "dueDate": "2026-05-07",
+    "assignedTo": "Rahim",
+    "tags": ["backend", "security"],
+    "createdAt": "2026-05-01T10:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Fix Mobile Navbar Bug",
+    "description": "Resolve issue where navbar jumps to top on mobile menu open.",
+    "status": "In Review",
+    "priority": "Medium",
+    "dueDate": "2026-05-03",
+    "assignedTo": "Karim",
+    "tags": ["bug", "frontend", "responsive"],
+    "createdAt": "2026-04-30T15:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Create API for Tasks",
+    "description": "Develop REST API endpoints for task CRUD operations.",
+    "status": "Pending",
+    "priority": "High",
+    "dueDate": "2026-05-10",
+    "assignedTo": "Nadia",
+    "tags": ["backend", "api"],
+    "createdAt": "2026-04-29T11:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Write Documentation",
+    "description": "Prepare project setup and usage documentation.",
+    "status": "Completed",
+    "priority": "Low",
+    "dueDate": "2026-04-28",
+    "assignedTo": "Mahmud",
+    "tags": ["docs", "project"],
+    "createdAt": "2026-04-25T08:15:00Z"
+  }
+]
