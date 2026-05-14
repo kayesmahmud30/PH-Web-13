@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://simpleCrudUser:simpleCrudUser@cluster0.vsa91kp.mongodb.net/?appName=Cluster0`;
+const uri = `mongodb+srv://<password>:<username>@cluster0.vsa91kp.mongodb.net/?appName=Cluster0`;
 
 // mongodb+srv://simpleCrudUser:simpleCrudUser@cluster0.vsa91kp.mongodb.net/?appName=Cluster0
 
