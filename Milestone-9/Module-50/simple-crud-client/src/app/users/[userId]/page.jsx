@@ -1,13 +1,14 @@
+import { getUserById } from "@/app/lib/data";
 import React from "react";
 
 const UserDetailPage = async ({ params }) => {
   const { userId } = await params;
-  const user = await getUsersById(userId);
+  const user = await getUserById(userId);
   console.log(user);
 
   return (
     <div>
-      <h2>User Details</h2>
+      <h2>User Details{user.name}</h2>
     </div>
   );
 };

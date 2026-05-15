@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://<password>:<username>@cluster0.vsa91kp.mongodb.net/?appName=Cluster0`;
+const uri = `mongodb+srv://simpleCrudUser:simpleCrudUser@cluster0.vsa91kp.mongodb.net/?appName=Cluster0`;
 
 // mongodb+srv://simpleCrudUser:simpleCrudUser@cluster0.vsa91kp.mongodb.net/?appName=Cluster0
 
@@ -35,9 +35,33 @@ const run = async () => {
     });
 
     app.get("/users/:id", async (req, res) => {
-      console.log(req.params.id);
+      const id = req.params.id;
+      const query = {
+        _id: new ObjectId(id),
+      };
 
-      res.send("Get user by id");
+      const user = await userCollection.findOne(query);
+
+      console.log("User Id:", id);
+      res.send(user);
+    });
+
+    app.post("/users", async (req, res) => {
+      const newUser = req.body;
+      // console.log("User to be inserted", newUser);
+      const result = await userCollection.insertOne(newUser);
+
+      res.send(result);
+    });
+
+    app.delete("/users/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = {
+        _id: new ObjectId(id),
+      };
+
+      const result = await userCollection.deleteOne(query);
+      res.send(result);
     });
 
     await client.db("admin").command({ ping: 1 });
