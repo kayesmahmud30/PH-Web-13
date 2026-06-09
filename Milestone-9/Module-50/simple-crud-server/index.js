@@ -20,7 +20,7 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   },
 });
- 
+
 const run = async () => {
   try {
     await client.connect();
